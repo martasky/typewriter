@@ -27,7 +27,7 @@ function initLoop() {
 
 function loop() {
   console.log("loop", iterator);
-  btn.addEventListener("click", loop);
+
   document.querySelector(".typewritten").textContent += text.charAt(iterator);
   iterator++;
   if (iterator < maxNumberOfIterations) {
